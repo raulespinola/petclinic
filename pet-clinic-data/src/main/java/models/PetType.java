@@ -1,4 +1,4 @@
-package com.springmvc.entities;
+package models;
 
 public class PetType extends BaseEntityName {
 

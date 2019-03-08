@@ -1,4 +1,4 @@
-package com.springmvc.entities;
+package models;
 
 import java.io.Serializable;
 import java.time.OffsetDateTime;

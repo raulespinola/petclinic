@@ -1,4 +1,4 @@
-package com.springmvc.entities;
+package models;
 
 import javax.persistence.*;
 import javax.persistence.MappedSuperclass;
@@ -10,6 +10,6 @@ import lombok.Data;
 @MappedSuperclass
 public abstract class BaseEntityName extends BaseEntity{
 
-	@Column(name = "first_name")
-	private String firstname;		
+	@Column(name = "name")
+	private String name;		
 }

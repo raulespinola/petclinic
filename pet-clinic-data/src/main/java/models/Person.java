@@ -1,4 +1,4 @@
-package com.springmvc.entities;
+package models;
 
 import java.time.LocalDate;
 import java.time.OffsetDateTime;

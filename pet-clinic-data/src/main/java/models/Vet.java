@@ -1,5 +1,6 @@
-package com.springmvc.entities;
+package models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
@@ -9,8 +10,13 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="pets")
+@Table(name="vets")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class Pet extends Person {
+public class Vet extends Person {
 
+	@Column(name = "work_phone")
+	private String workPhone;
+	
+	@Column(name = "work_email", nullable = true)
+	private String workEmail;
 }

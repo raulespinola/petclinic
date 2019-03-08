@@ -5,7 +5,7 @@
 	<groupId>com.petclinic</groupId>
 	<artifactId>petclinic</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.2</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>PetClinic</name>
 	<description>Pet Clinic in Spring MVC</description>
 	
@@ -13,7 +13,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.3.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
 	<properties>
@@ -43,6 +43,5 @@
 	</build> 
 	<scm>
 		<developerConnection>scm:git:git@github.com:raulespinola/petclinic.git</developerConnection>
-	  <tag>petclinic-0.0.2</tag>
-  </scm>
+	</scm>
 </project>
